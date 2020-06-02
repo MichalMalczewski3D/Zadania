@@ -1,0 +1,119 @@
+html{
+        margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    font-family: inherit;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    vertical-align: baseline;
+    outline: none;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    font-family:'Crimson Text';
+    box-sizing: border-box;
+    clear: both;
+    margin: auto;
+}
+.C
+{
+    width: 100%;
+    min-width: 50%;
+}
+p
+{
+    font-size: 1.2em;
+    text-align: left;
+}
+h1
+{
+    font-weight: bold;
+}
+a
+{
+    color: black;
+    text-decoration-line: none;
+    box-sizing: border-box;
+    font-size: 20px 
+}
+.bio
+{
+    width: 80%;
+    margin-right: auto;
+}
+header
+{
+    margin-top: 2em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+.poss{
+    position: relative;
+    z-index: 30;
+    display: block;
+}
+li{
+    width: 0%;
+}
+li.jeden
+{
+    top:7em;
+    left:3em;
+    list-style-type: none;
+    transform: rotate(-90deg);
+    position: fixed;
+}
+
+li.dwa
+{
+    top:7em;
+    right:3em;
+    list-style-type: none;
+    transform: rotate(-90deg);
+    position: fixed;
+}
+li.trzy
+{
+    bottom:3em;
+    left:3em;
+    list-style-type: none;
+    transform: rotate(-90deg);
+    position: fixed;
+}
+li.cztery
+{
+    bottom:3em;
+    right:3em;
+    list-style-type: none;
+    transform: rotate(-90deg);
+    position: fixed;
+}
+img
+{
+    width: 100%;
+}
+section
+{
+    width:100%;
+    height:auto;
+    min-height: 200px;
+    background-image: url(img/Portrait.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size:contain;
+    margin: auto;
+}
+footer
+{
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    font-size: auto;
+}

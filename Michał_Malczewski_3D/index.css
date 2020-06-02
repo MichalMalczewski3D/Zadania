@@ -1,0 +1,118 @@
+html{
+        margin: 0;
+    padding: 0;
+    border: none;
+    background: transparent;
+    font-family: inherit;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 100%;
+    vertical-align: baseline;
+    outline: none;
+}
+body
+{
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    font-family:'Crimson Text';
+    box-sizing: border-box;
+    clear: both;
+    margin: auto;
+    min-width:1000px;
+}
+.C
+{
+    width: 100%;
+    min-width: 50%;
+}
+
+p
+{
+   font-size: 2em;
+text-align: center;
+}
+a
+{
+    color: black;
+    text-decoration-line: none;
+    box-sizing: border-box;
+    font-size: 1.3em;
+    letter-spacing: .03em
+}
+header
+{
+    margin-top: 2em;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+}
+.poss{
+    position: relative;
+    z-index: 30;
+    display: block;
+}
+li{
+    width: 0%;
+}
+li.jeden
+{
+    top:7em;
+    left:3em;
+    list-style-type: none;
+    transform: rotate(-90deg);
+    position: fixed;
+}
+
+li.dwa
+{
+    top:7em;
+    right:3em;
+    list-style-type: none;
+    transform: rotate(-90deg);
+    position: fixed;
+}
+li.trzy
+{
+    bottom:3em;
+    left:3em;
+    list-style-type: none;
+    transform: rotate(-90deg);
+    position: fixed;
+}
+li.cztery
+{
+    bottom:3em;
+    right:3em;
+    list-style-type: none;
+    transform: rotate(-90deg);
+    position: fixed;
+}
+section
+{
+    width: auto; 
+    max-width: 70%;
+    margin: auto;
+}
+img
+{
+    width: 100%;
+}
+a:
+{
+    width: 500px;
+    height:200px;
+    box-sizing: border-box;
+    float: left;
+    margin: auto;
+    padding:.3em;
+}
+footer
+{
+    width: 100%;
+    text-align: center;
+    padding: 0.5em;
+    font-size: auto;
+    margin-bottom: 1em;
+}
